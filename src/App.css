@@ -1,0 +1,91 @@
+body, html {margin: 0;padding: 0;}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.sidebar {
+  box-shadow: 1px 1px 3px #eee;
+}
+
+.sidebar-item {
+  width: 100%;
+  height: 5%;
+}
+
+.sidebar-full-item {
+  width: 100%;
+  height: 10%;
+  font-size: 22px;
+}
+
+.sidebar-item.main:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.red {
+  background-color: lightcoral;
+}
+
+.main {
+  background-color: rgb(241, 241, 241);
+}
+
+.primary {
+  background-color: #00d1b2;
+  border-color: transparent;
+  color: #fff;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+html {
+  overflow: hidden;
+}
